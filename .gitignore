@@ -1,0 +1,4 @@
+.idea
+.phpunit.cache
+tests/build
+vendor

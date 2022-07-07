@@ -1,0 +1,27 @@
+{
+    "name": "anggadarkprince/learn-testing-github-action",
+    "description": "Learn php unit and github action",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Anggadarkprince\\LearnTestingGithubAction\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anggadarkprince\\LearnTestingGithubAction\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angga Ari Wijaya",
+            "email": "anggadarkprince@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --configuration phpunit.xml tests"
+    }
+}
